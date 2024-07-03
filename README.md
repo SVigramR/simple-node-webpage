@@ -8,3 +8,9 @@
 ```bash
 node index.js
 ```
+
+### Run the site with Express:
+``` bash
+node app.js
+```
+Added express to this application as I'm learning the framework.
