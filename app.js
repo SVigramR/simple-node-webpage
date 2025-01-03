@@ -19,6 +19,10 @@ app.get('/contact-me.html', (req, res) => {
     res.sendFile('contact-me.html', options)
 })
 
+app.get('/404.html', (req, res) => {
+    res.sendFile('404.html', options)
+})
+
 app.listen(port, () => {
     console.log(`Listening in the port - ${port}`)
 })
